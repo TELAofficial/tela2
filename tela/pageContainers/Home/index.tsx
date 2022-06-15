@@ -3,15 +3,9 @@ import React from 'react'
 const HomeContainer = () => {
   return (
     <>
-    <h1>Nav</h1>
-    <ul>
-        <li>
-        <a href='/'>Home</a>
-        </li>
-        <li>
-        <a href='/contatti'>Contatti</a>
-        </li>
-    </ul>
+    <div>First Nav</div>
+    <a>Home</a>
+    <a href='/Contatti'>Contatti</a>
     </>
   )
 }

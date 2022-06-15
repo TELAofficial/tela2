@@ -8,7 +8,7 @@ export class ServerTela {
 
 	constructor() {
 		// modules
-		this.user = new UserServer(this)
+		this.user = new UserServer()
 	}
 }
 
