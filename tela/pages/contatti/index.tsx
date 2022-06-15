@@ -1,12 +1,12 @@
 import React from 'react'
+import ContattiContainer from '../../pageContainers/contatti'
 //Componenti
-import ContattiContainer from '../../pageContainers/Contatti'
 
-const Signup = () => {
+const Contatti = () => {
 
   return (
       <ContattiContainer/>
   )
 }
 
-export default React.memo(Signup)
+export default Contatti

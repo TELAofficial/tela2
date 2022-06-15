@@ -1,15 +1,15 @@
 import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { Provider } from "react-redux";
-import { store } from "src/store";
-import { Router } from 'react-router-dom';
+import { store } from "../store";
+import { createMemoryHistory } from 'history';
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const history = createMemoryHistory();
+
   return (
     <Provider store={store}>
-      <Router history={history}>
         <Component {...pageProps} />
-      </Router>
     </Provider>
   );
 }
